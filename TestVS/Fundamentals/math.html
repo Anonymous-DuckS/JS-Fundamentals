@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Math</title>
+</head>
+
+<body>
+    <div id="out"></div>
+
+    <script>
+        
+        var salaryPerWeek = 1350;
+        var output = "";
+        output += "Weekly Salary: " + salaryPerWeek;
+        var salaryPerYear = salaryPerWeek * 52;
+        output += "<br/>Yearly Salary: " + salaryPerYear;
+        var salaryPerMonth = salaryPerYear / 12;
+        output += "<br/>Monthly Salary: " + salaryPerMonth;
+
+        document.getElementById('out').innerHTML = output;
+    </script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<div id="output"></div>
+
+<script>
+    var choice = "A";
+
+    if(choice != "A")
+    {
+        alert("It's not A");
+    }
+    else
+    {
+        alert("It's freakin A");
+    }
+
+
+    switch(choice)
+    {
+        case "A":
+            document.getElementById('output').innerHTML = "It's A";
+            break;
+        case "B":
+        document.getElementById('output').innerHTML = "It's not A";
+    }
+</script>
